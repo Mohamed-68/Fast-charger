@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Tajawal', sans-serif;
+  --color-primary: #1a1a1a;
+  --color-accent: #3b82f6;
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  src: url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
